@@ -12,9 +12,16 @@
         padding-bottom: 15px;
       }
     </style>
+    <link rel="stylesheet" href="public/css/regist.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="./public/js/index.js">
+
+    </script>
   </head>
   <body>
     <table>
+
       <tr>
         <td>요리 이름</td>
         <td><input type="text" name="" value=""></td>
@@ -35,18 +42,30 @@
       <tr>
         <td>서브 재료</td>
         <td>
-          <input type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
-          <input type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
-          <input type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
+          <div class="sub_item_pot">
+            <div class="item_list">
+              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
+              <button class="sub_del item1" type="button" name="button">&times;</button>
+            </div>
+            <div class="item_list">
+              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
+              <button class="sub_del item2" type="button" name="button">&times;</button>
+            </div>
+            <div class="item_list">
+              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
+              <button  class="sub_del item3"type="button" name="button">&times;</button>
+            </div>
+          </div>
+          <button class="item_add" type="button" name="button"></button>
         </td>
       </tr>
 
       <tr>
         <td>소스</td>
         <td>
-          <input type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
-          <input type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
-          <input type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
+          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
+          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
+          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
         </td>
       </tr>
 
