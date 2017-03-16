@@ -1,3 +1,10 @@
+*{
+  border-spacing: 0px !important;
+}
+table{
+  width: 80%;
+  border-spacing: 0px;
+}
 td{
   padding-right: 25px;
   max-width: 350px;
@@ -5,17 +12,91 @@ td{
 .sub_item{
   display: inline-block;
   width: 150px;
-  height: 30px;
-  border: 5px solid orange;
+  height: 40px;
+  border: none;
   font-size: 10px;
   margin-right: 5px;
+  /* margin-top: 10px; */
+  border-spacing: 0px;
 }
 .sub_item:focus{
   font-size: 25px;
 }
-.item_add{
 
-}
 .item_list{
   display: inline-block;
+  margin-right: 20px;
+  height: 42px;
+  width: 190px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: 5px solid orange;
+}
+.item_list:first-child{
+  margin-right: 16px;
+}
+.sub_head{
+  font-size: 30px;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+td{
+  border-left: 1px solid #ccc;
+  border-right 1px solid #ccc;
+}
+.sub_con{
+  width: 60%;
+  padding-left: 15px;
+}
+#foodname{
+  width: 300px;
+  height: 30px;
+  border: 5px solid orange;
+  font-size: 18px;
+}
+#foodname:focus{
+  font-size: 25px
+}
+#special{
+  width: 200px;
+  height: 30px;
+  border: 5px solid orange;
+  font-size: 15px;
+
+}
+#special:focus{
+  font-size: 25px;
+}
+#main_item{
+  width: 200px;
+  height: 30px;
+  border: 5px solid orange;
+  font-size: 15px;
+}
+#main_item:focus{
+  font-size: 25px;
+}
+.sos_list{
+  display: inline-block;
+  margin-right: 20px;
+  height: 42px;
+  width: 190px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: 5px solid orange;
+}
+.sos_list:first-child{
+  margin-right: 16px;
+}
+.sub_del{
+  border-spacing: 0px;
+  padding-left: 11px;
+}
+button{
+  border: none;
+background-color: white;
+font-size: 20px;
+padding-top: 5px;
 }

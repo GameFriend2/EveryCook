@@ -23,58 +23,52 @@
     <table>
 
       <tr>
-        <td>요리 이름</td>
-        <td><input type="text" name="" value=""></td>
+        <td class="sub_head">요리 이름</td>
+        <td class="sub_con"><input id="foodname" type="text" name="" value=""></td>
       </tr>
 
       <tr>
-        <td>스페셜 포인트</td>
-        <td>
-          <input type="text" name="" value="" placeholder="자신의 요리의 특별함을 적어주세요">
+        <td class="sub_head">스페셜 포인트</td>
+        <td class="sub_con">
+          <input id="special" type="text" name="" value="" placeholder="자신의 요리의 특별함을 적어주세요">
         </td>
       </tr>
       <tr>
-        <td>메인 재료</td>
-        <td>
-          <input type="text" name="" value="" placeholder="한가지 재료만 선정해주세요!!">
+        <td class="sub_head">메인 재료</td>
+        <td class="sub_con">
+          <input id="main_item" type="text" name="" value="" placeholder="한가지 재료만 선정해주세요!!">
         </td>
       </tr>
       <tr>
-        <td>서브 재료</td>
-        <td>
+        <td class="sub_head">서브 재료</td>
+        <td class="sub_con">
           <div class="sub_item_pot">
             <div class="item_list">
               <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
-              <button class="sub_del item1" type="button" name="button">&times;</button>
-            </div>
-            <div class="item_list">
-              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
-              <button class="sub_del item2" type="button" name="button">&times;</button>
-            </div>
-            <div class="item_list">
-              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 부재료를 적어주세요">
-              <button  class="sub_del item3"type="button" name="button">&times;</button>
+              <button class="item_add" type="button" name="button">&#43;</button>
             </div>
           </div>
-          <button class="item_add" type="button" name="button"></button>
         </td>
       </tr>
 
       <tr>
-        <td>소스</td>
-        <td>
-          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
-          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
-          <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
+        <td class="sub_head">소스</td>
+        <td class="sub_con">
+          <div class="sub_sos_pot">
+            <div class="sos_list">
+              <input class="sub_item" type="text" name="" value="" placeholder="요리에 필요한 소스를 적어주세요">
+              <button class="item_add2" type="button" name="button">&#43;</button>
+            </div>
+          </div>
         </td>
       </tr>
 
       <tr>
-        <td>요리순서</td>
+        <td class="sub_head">요리순서</td>
       </tr>
       <tr>
         <td>first step</td>
-        <td><textarea name="name" rows="8" cols="80"></textarea></td>
+        <td class="sub_con"><textarea name="name" rows="8" cols="80"></textarea></td>
       </tr>
     </table>
 
